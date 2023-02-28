@@ -14,13 +14,14 @@ function sendEmail() {
     let a = document.createElement('a')
     // a.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailReciever}&su=${subject} - ${name}&body=${body}`
     a.href = mailtoLink;
+    a.target 
     a.click()
 }
 
 function downloadFile() {
     // Ganti dengan path dan nama file yang ingin didownload
-    var filePath = 'src/Dicky JS.pdf';
-    var fileName = 'Dicky JS.pdf';
+    var filePath = 'src/CV Dicky Joel Saputra.pdf';
+    var fileName = 'CV Dicky Joel Saputra.pdf';
 
     // Membuat elemen <a> dengan atribut href dan download
     var link = document.createElement('a');
