@@ -16,3 +16,26 @@ function sendEmail() {
     a.href = mailtoLink;
     a.click()
 }
+
+function downloadFile() {
+    // Ganti dengan path dan nama file yang ingin didownload
+    var filePath = 'src/Dicky JS.pdf';
+    var fileName = 'Dicky JS.pdf';
+
+    // Membuat elemen <a> dengan atribut href dan download
+    var link = document.createElement('a');
+    link.href = filePath;
+    link.download = fileName;
+
+    // Menambahkan elemen <a> ke dalam dokumen
+    document.body.appendChild(link);
+
+    // Simulasi klik pada elemen <a>
+    link.click();
+
+    // Menghapus elemen <a> dari dokumen
+    document.body.removeChild(link);
+}
+
+
+
