@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="dist/output.css" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet">
     <title>Portfolio Dicky</title>
-      <link rel="icon" type="image/x-icon" href="https://avatars3.githubusercontent.com/u/34464790?s=220&v=4">
+    <link rel="icon" type="image/x-icon" href="https://avatars3.githubusercontent.com/u/34464790?s=220&v=4">
 </head>
 
 <body>
-    
+
     <!-- {{-- Navbar Section Start --}} -->
     <nav
         class="z-50 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 fixed w-full">
@@ -75,49 +75,74 @@
                         </span>
                     </h1>
                     <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Fullstack Developer</h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Talent Fullstack developer dari Dumbways Indonesia batch ke 41, landing page ini saya buat sebagai media yang membantu saya mencari pekerjaan, serta kontak , portfolio dan keahlian yang saya miliki. Adapun informasi bersifat pribadi dapat dilihat dengan menekan tombol <span class="font-bold text-dark">"CV Saya"</span> dibawah ini.</p>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Talent Fullstack developer dari Dumbways
+                        Indonesia batch ke 41, landing page ini saya buat sebagai media yang membantu saya mencari
+                        pekerjaan, serta kontak , portfolio dan keahlian yang saya miliki. Adapun informasi bersifat
+                        pribadi dapat dilihat dengan menekan tombol <span class="font-bold text-dark">"CV Saya"</span>
+                        dibawah ini.</p>
                     <a href="#kontak"
                         class="block mb-4 mr-2 lg:inline text-base semi-bold text-white bg-primary py-3 px-8 rounded-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out text-center">Hubungi
                         Saya</a>
                     <button onclick="downloadFile()"
-                        class="block w-full mb-4 mr-2 lg:inline lg:w-auto text-base semi-bold text-white bg-primary py-3 px-8 rounded-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Download CV
+                        class="block w-full mb-4 mr-2 lg:inline lg:w-auto text-base semi-bold text-white bg-primary py-3 px-8 rounded-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Download
+                        CV
                         Saya</button>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2 my-12">
-                
-                        <!-- <img src="dist/img/dicky.png" alt="dicky"
+
+                    <!-- <img src="dist/img/dicky.png" alt="dicky"
                             class="max-w-full mx-auto object-none object-top h-96 w-96"> -->
-                        
-                <div id="controls-carousel" class="relative" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative h-96 overflow-hidden rounded-lg md:h-96 shadow-lg">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out bg-cover bg-gradient-to-r from-primary to-fuchsia-500 bg-fixed" data-carousel-item="active">
-                            <img src="dist/img/dicky.png" class="absolute block h-96 w-full object-none object-top" alt="...">
+
+                    <div id="controls-carousel" class="relative" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-96 overflow-hidden rounded-lg md:h-96 shadow-lg">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out bg-cover bg-gradient-to-r from-primary to-fuchsia-500 bg-fixed"
+                                data-carousel-item="active">
+                                <img src="dist/img/dicky.png" class="absolute block h-96 w-full object-none object-top"
+                                    alt="...">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="flex justify-center items-center duration-700 ease-in-out bg-cover bg-gradient-to-r from-primary to-fuchsia-500"
+                                data-carousel-item="active">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png"
+                                    class="absolute h-80 object-contain" alt="...">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="flex justify-center items-center duration-700 ease-in-out bg-cover bg-gradient-to-r from-primary to-fuchsia-500"
+                                data-carousel-item="active">
+                                <img src="https://avatars3.githubusercontent.com/u/34464790?s=220&v=4"
+                                    class="absolute h-80 object-contain " alt="...">
+                            </div>
                         </div>
-                        <!-- Item 2 -->
-                        <div class="flex justify-center items-center duration-700 ease-in-out bg-cover bg-gradient-to-r from-primary to-fuchsia-500" data-carousel-item="active">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png" class="absolute h-80 object-contain" alt="...">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="flex justify-center items-center duration-700 ease-in-out bg-cover bg-gradient-to-r from-primary to-fuchsia-500" data-carousel-item="active">
-                            <img src="https://avatars3.githubusercontent.com/u/34464790?s=220&v=4" class="absolute h-80 object-contain " alt="...">
-                        </div>
+                        <!-- Slider controls -->
+                        <button type="button"
+                            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-prev>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 19l-7-7 7-7"></path>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button"
+                            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-next>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
                     </div>
-                    <!-- Slider controls -->
-                    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                            <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                            <span class="sr-only">Previous</span>
-                        </span>
-                    </button>
-                    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                            <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                            <span class="sr-only">Next</span>
-                        </span>
-                    </button>
-                </div>
                 </div>
             </div>
         </div>
@@ -132,12 +157,23 @@
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-3xl ">Pantang Menyerah
                     </h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Panggil saja Dicky atau Jul , usia saya 23 Tahun dan berdomisili di Jakarta Barat , saya anak ke 2 dari 2 bersaudara , ibu saya bekerja sebagai ibu rumah tangga dan ayah saya bekerja sebagai ojol (gojek) , secara singkat pengalaman saya tidak relate dengan pekerjaan saya cari, antara lain : kurir , marketing , cleaner , ojol (grab) , usaha olshop tokopedia dan shopee. saya juga pernah menempuh kuliah dibidang Teknik Informatika tetapi kandas ditengah jalan karena tuntutan pekerjaan dan ekonomi , tetapi rentetan hal hal tersebut tidak membuat saya patah semangat untuk menjadi seorang Fullstack Developer, sehingga saya mengikuti kelas Bootcamp yang diselenggarakan oleh PT Dumbways Technology Indonesia. untuk keahlian-keahlian yang saya miliki dijabarkan dibawah , tetapi ada target yang ingin saya raih dan pelajari kedepanya, antara lain : Vue JS sebagai front end , Dart (Flutter) untuk mobile , dan C++ untuk desktop.</p>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Panggil saja Dicky atau Jul ,
+                        usia saya 23 Tahun dan berdomisili di Jakarta Barat , saya anak ke 2 dari 2 bersaudara , ibu
+                        saya bekerja sebagai ibu rumah tangga dan ayah saya bekerja sebagai ojol (gojek) , secara
+                        singkat pengalaman saya tidak relate dengan pekerjaan saya cari, antara lain : kurir , marketing
+                        , cleaner , ojol (grab) , usaha olshop tokopedia dan shopee. saya juga pernah menempuh kuliah
+                        dibidang Teknik Informatika tetapi kandas ditengah jalan karena tuntutan pekerjaan dan ekonomi ,
+                        tetapi rentetan hal hal tersebut tidak membuat saya patah semangat untuk menjadi seorang
+                        Fullstack Developer, sehingga saya mengikuti kelas Bootcamp yang diselenggarakan oleh PT
+                        Dumbways Technology Indonesia. untuk keahlian-keahlian yang saya miliki dijabarkan dibawah ,
+                        tetapi ada target yang ingin saya raih dan pelajari kedepanya, antara lain : Vue JS sebagai
+                        front end , Dart (Flutter) untuk mobile , dan C++ untuk desktop.</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                     <h3 class="font-bold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
                     <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
-                        Sebagai tambahan berikut adalah channel youtube , media sosial atau media komunikasi yang saya gunakan.
+                        Sebagai tambahan berikut adalah channel youtube , media sosial atau media komunikasi yang saya
+                        gunakan.
                     </p>
                     <div class="flex items-center">
                         <!-- {{-- youtube --}} -->
@@ -182,7 +218,12 @@
                         </a>
                         <a class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                             href="https://github.com/dickyjoelsaputra" target="_blank">
-<svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                            <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -253,6 +294,15 @@
                     <div
                         class="flex items-center justify-center mx-auto space-x-4 bg-white w-full lg:w-full rounded-md py-1 mb-3 shadow-lg">
                         <img class="w-auto h-10 rounded-sm"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
+                            alt="">
+                        <div class="font-medium dark:text-white">
+                            <div class="text-base text-gray-500 dark:text-gray-400">Vue JS</div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center justify-center mx-auto space-x-4 bg-white w-full lg:w-full rounded-md py-1 mb-3 shadow-lg">
+                        <img class="w-auto h-10 rounded-sm"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
                             alt="">
                         <div class="font-medium dark:text-white">
@@ -277,7 +327,16 @@
                             <div class="text-base text-gray-500 dark:text-gray-400">TailwindCSS</div>
                         </div>
                     </div>
-                                        <div
+                    <div
+                        class="flex items-center justify-center mx-auto space-x-4 bg-white w-full lg:w-full rounded-md py-1 mb-3 shadow-lg">
+                        <img class="w-auto h-10 rounded-sm"
+                            src="https://cdn.worldvectorlogo.com/logos/jquery-4.svg"
+                            alt="">
+                        <div class="font-medium dark:text-white">
+                            <div class="text-base text-gray-500 dark:text-gray-400">jQuery</div>
+                        </div>
+                    </div>
+                    <div
                         class="flex items-center justify-center mx-auto space-x-4 bg-white w-full lg:w-full rounded-md py-1 mb-3 shadow-lg">
                         <img class="w-auto h-10 rounded-sm"
                             src="https://flowbite.s3.amazonaws.com/brand/logo-dark/mark/flowbite-logo.png"
@@ -357,7 +416,7 @@
                             <div class="text-base text-gray-500 dark:text-gray-400">JSON API</div>
                         </div>
                     </div>
-                                        <div
+                    <div
                         class="flex items-center justify-center mx-auto space-x-4 bg-white w-full lg:w-full rounded-md py-1 mb-3 shadow-lg">
                         <img class="w-auto h-10 rounded-sm"
                             src="https://seeklogo.com/images/P/photoshop-2020-logo-37B02055A4-seeklogo.com.png" alt="">
@@ -365,10 +424,11 @@
                             <div class="text-base text-gray-500 dark:text-gray-400">Photosop</div>
                         </div>
                     </div>
-                                                            <div
+                    <div
                         class="flex items-center justify-center mx-auto space-x-4 bg-white w-full lg:w-full rounded-md py-1 mb-3 shadow-lg">
                         <img class="w-auto h-10 rounded-sm"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/2048px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png" alt="">
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/2048px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
+                            alt="">
                         <div class="font-medium dark:text-white">
                             <div class="text-base text-gray-500 dark:text-gray-400">MS Office</div>
                         </div>
@@ -387,7 +447,8 @@
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Portfolio</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 lg:text-4xl ">Projek Terbaru
                     </h2>
-                    <p class="font-medium text-md text-secondary">Beberapa portfolio / projek / research yang yang pernah saya buat</p>
+                    <p class="font-medium text-md text-secondary">Beberapa portfolio / projek / research yang yang
+                        pernah saya buat</p>
                 </div>
             </div>
             <div class="grid lg:grid-cols-3 lg:gap-10 gap-2">
@@ -395,8 +456,11 @@
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3">
                     <img class="rounded-t-lg" src="https://i.ibb.co/KyF7zpW/Capture.jpg[" alt="" />
                     <div class="p-5">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio Dicky</h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Website statis untuk portfolio saya , menggunakan tailwind css , desain by Sandika Galih dengan kostumisasi yang saya buat sendiri.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio Dicky
+                        </h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Website statis untuk portfolio saya
+                            , menggunakan tailwind css , desain by Sandika Galih dengan kostumisasi yang saya buat
+                            sendiri.</p>
                         <a href="https://github.com/dickyjoelsaputra/portfolio" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code
@@ -413,8 +477,11 @@
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3">
                     <img class="rounded-t-lg" src="https://i.ibb.co/mRfBX6Y/booklending.jpg" alt="" />
                     <div class="p-5">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">BookLending</h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Projek yang saya buat saat melamar disebuah perusahaan , interaksi antara user dan admin dengan tema peminjaman buku. stack yang digunakan Laravel , MySQL dan template AdminLTE.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">BookLending
+                        </h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Projek yang saya buat saat melamar
+                            disebuah perusahaan , interaksi antara user dan admin dengan tema peminjaman buku. stack
+                            yang digunakan Laravel , MySQL dan template AdminLTE.</p>
                         <a href="https://github.com/dickyjoelsaputra/booklending" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code
@@ -427,12 +494,14 @@
                         </a>
                     </div>
                 </div>
-                                <div
+                <div
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3">
                     <img class="rounded-t-lg" src="https://i.ibb.co/W2bsJgR/Untitled.png" alt="" />
                     <div class="p-5">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Laravel Belajar</h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-y-auto h-32">for research purposes , ilmu laravel saya lakukan disini</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Laravel Belajar
+                        </h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-y-auto h-32">for research
+                            purposes , ilmu laravel saya lakukan disini</p>
                         <a href="https://github.com/dickyjoelsaputra/belajar_laravel" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code
@@ -449,8 +518,13 @@
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3">
                     <img class="rounded-t-lg" src="https://i.ibb.co/0ZYJnpk/d595vc-Landing-Page-1.png" alt="" />
                     <div class="p-5">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">WaysGallery</h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-y-auto h-32">Projek final task sebagai sebuah syarat kelulusan mengikuti kelas bootcamp di Dumbways Indonesia, dengan tema pameran Seni dan Desain , interaksi antara user dengan user yang dapat melakukan hiring. Stack yang digunakan react dan boostrap sebagai front end , golang sebagai backend , cloudinary sebagai penyimpanan gambar.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">WaysGallery
+                        </h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-y-auto h-32">Projek final
+                            task sebagai sebuah syarat kelulusan mengikuti kelas bootcamp di Dumbways Indonesia, dengan
+                            tema pameran Seni dan Desain , interaksi antara user dengan user yang dapat melakukan
+                            hiring. Stack yang digunakan react dan boostrap sebagai front end , golang sebagai backend ,
+                            cloudinary sebagai penyimpanan gambar.</p>
                         <a href="https://github.com/dickyjoelsaputra/waysgallery_client" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code FE
@@ -461,7 +535,7 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                         </a>
-                                                <a href="https://github.com/dickyjoelsaputra/waysgallery_backend" target="_blank"
+                        <a href="https://github.com/dickyjoelsaputra/waysgallery_backend" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code BE
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor"
@@ -478,7 +552,11 @@
                     <img class="rounded-t-lg" src="https://i.ibb.co/WgvxBHc/tmk7zf-Landing-Before-Login-1.png" alt="" />
                     <div class="p-5">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Waysbuck</h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-y-auto h-32">Projek utama sebagai sebuah syarat kelulusan mengikuti kelas bootcamp di Dumbways Indonesia, dengan tema penjualan kopi , terdapat 2 role antara user/pembeli dengan admin/penjual. Stack yang digunakan react dan boostrap sebagai front end , golang sebagai backend , cloudinary sebagai penyimpanan gambar dan midtrans sebagai metode pembayaran.</p>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-y-auto h-32">Projek utama
+                            sebagai sebuah syarat kelulusan mengikuti kelas bootcamp di Dumbways Indonesia, dengan tema
+                            penjualan kopi , terdapat 2 role antara user/pembeli dengan admin/penjual. Stack yang
+                            digunakan react dan boostrap sebagai front end , golang sebagai backend , cloudinary sebagai
+                            penyimpanan gambar dan midtrans sebagai metode pembayaran.</p>
                         <a href="https://github.com/dickyjoelsaputra/waysbucks_client" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code FE
@@ -489,7 +567,7 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                         </a>
-                                                <a href="https://github.com/dickyjoelsaputra/waysbucks_server" target="_blank"
+                        <a href="https://github.com/dickyjoelsaputra/waysbucks_server" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary hover:bg-emerald-700 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300">
                             Source Code BE
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor"
@@ -518,7 +596,10 @@
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Kontak</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 lg:text-4xl ">Hubungi Saya
                     </h2>
-                    <p class="font-medium text-md text-secondary">Kontak saya melalui email , jika default apk/software email tidak terbuka secara otomatis , maka bisa melakukan email manual ke : <span class="text-dark"><a href="mailto:dickyjoelsaputra@gmail.com">dickyjoelsaputra@gmail.com</a></span></p>
+                    <p class="font-medium text-md text-secondary">Kontak saya melalui email , jika default apk/software
+                        email tidak terbuka secara otomatis , maka bisa melakukan email manual ke : <span
+                            class="text-dark"><a
+                                href="mailto:dickyjoelsaputra@gmail.com">dickyjoelsaputra@gmail.com</a></span></p>
                 </div>
             </div>
 
@@ -624,10 +705,15 @@
                                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                         </svg>
                     </a>
-                                            <a class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
-                            href="https://github.com/dickyjoelsaputra" target="_blank">
-<svg class="fill-current" width="25" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                        </a>
+                    <a class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                        href="https://github.com/dickyjoelsaputra" target="_blank">
+                        <svg class="fill-current" width="25" role="img" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
                 </div>
                 <p class="font-medium text-sm text-slate-400 text-center">Dibuat dengan
                     ❤ oleh Dicky Joel Saputra menggunakan
@@ -638,7 +724,7 @@
 
     <!-- {{-- Footer End --}} -->
     <script src="dist/main.js"></script>
-<script src="dist/flowbite.js"></script>
+    <script src="dist/flowbite.js"></script>
 </body>
 
 </html>
